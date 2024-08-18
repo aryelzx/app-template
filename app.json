@@ -18,10 +18,18 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aryelzx.appcloud",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d0d810c6-5ab2-4f4b-96ee-8f7d0fb21be6"
+      }
+    },
+    "owner": "aryelzx"
   }
 }
